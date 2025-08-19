@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unlock Your Reward</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f0f4ff, #d9e6ff);
+    }
+    header {
+      background: #1a237e;
+      color: white;
+      padding: 20px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .logo {
+      margin: 20px auto;
+    }
+    .logo img {
+      width: 120px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #1a237e;
+      font-size: 26px;
+    }
+    p {
+      color: #333;
+      font-size: 18px;
+    }
+    .offers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+    .offer {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      padding: 20px;
+      width: 420px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .offer:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+    }
+    .offer img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .offer h2 {
+      font-size: 22px;
+      color: #1a237e;
+    }
+    .offer p {
+      font-size: 16px;
+      margin: 15px 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      font-size: 16px;
+      color: #fff;
+      background: #e91e63;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #c2185b;
+    }
+    /* Floating Button */
+    .floating-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #ff5722;
+      color: #fff;
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: background 0.3s;
+      z-index: 9999;
+      animation: pulse 1.5s infinite, shake 3s infinite;
+    }
+    .floating-btn:hover {
+      background: #e64a19;
+    }
+
+    /* Pulse Animation */
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    /* Shake Animation */
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      10%, 30%, 50%, 70%, 90% { transform: translateX(-4px); }
+      20%, 40%, 60%, 80% { transform: translateX(4px); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🎁 Complete 1 of 2 Offers to Unlock Your Reward!
+  </header>
+
+  <!-- Logo -->
+  <div class="logo">
+    <img src="images\téléchargement.jpeg" alt="Logo">
+  </div>
+
+  <div class="container">
+    <h1>Win a Survival Kit or a $100 Wendy’s Gift Card!</h1>
+    <p>Finish one quick offer to unlock access. Choose your reward below:</p>
+
+    <div class="offers">
+      <!-- Offer 1 -->
+      <div class="offer">
+        <img src="images\image1.jpeg" alt="Wendy's Gift Card">
+        <h2>$100 Wendy’s Gift Card</h2>
+        <p>Have a chance to get a $100 Wendy’s Gift Card!<br>Enter your valid email and confirm.</p>
+        <a href="https://installchecker.com/cl/i/1x5o6k" class="btn">Get Gift Card</a>
+      </div>
+
+      <!-- Offer 2 -->
+      <div class="offer">
+        <img src="images\image2.jpeg" alt="Survival Kit">
+        <h2>Survival Kit</h2>
+        <p>Win a Survival Kit HERE!<br>Enter your details to claim now.</p>
+        <a href="https://installchecker.com/cl/i/1x5o6k" class="btn">Get Survival Kit</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Button -->
+  <a href="https://installchecker.com/cl/i/1x5o6k" class="floating-btn">🔥 Unlock Reward Now</a>
+
+</body>
+</html>
